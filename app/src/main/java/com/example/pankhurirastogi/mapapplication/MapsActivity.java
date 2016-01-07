@@ -115,6 +115,6 @@ public class MapsActivity extends FragmentActivity {
      */
     private void setUpMap() {
         mMap.addMarker(new MarkerOptions().position(new LatLng(32.456,-80.845)).title("Marker"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(32.456,-80.345),14.9f));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(32.256,-80.345),14.9f));
     }
 }
